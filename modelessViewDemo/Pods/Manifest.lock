@@ -1,0 +1,10 @@
+PODS:
+  - modelessView (1.0)
+
+DEPENDENCIES:
+  - modelessView
+
+SPEC CHECKSUMS:
+  modelessView: df6ec7c105da78fc343a1a8607b78d8b496f2103
+
+COCOAPODS: 0.39.0
