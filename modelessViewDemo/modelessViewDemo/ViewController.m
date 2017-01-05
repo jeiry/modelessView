@@ -17,6 +17,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+}
+- (IBAction)showAlertAction:(id)sender {
+    [[ModelessAlertView instance]showAlert:@"Hello World Hello World Hello World Hello World Hello World Hello World Hello World" dict:@{@"width":@"300",
+               @"textAlignment":@"center",//option
+               @"delay":@"3",
+               @"positionX":@"center",//option
+               }
+     ];
 }
 
 - (void)didReceiveMemoryWarning {
